@@ -1,0 +1,943 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+ img 		{
+	width: 100%;
+}
+/*Menu permanente*/
+
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    background-color: white;
+}
+
+li {
+    display: inline;
+    width: 60px;
+}
+
+a.boton-menu {
+    display: inline-block;
+    padding: 10px;
+}
+
+a.boton-menu:link, a.boton-menu:visited {
+    text-decoration: none;
+    color: #828282;
+}
+
+a.boton-menu:hover, a.boton-menu:active {
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+
+.menu {
+
+	position: sticky;
+	z-index:2;
+    top: 0px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	font-family: 'Roboto'
+	
+	
+
+}
+
+
+
+/*todos los p y todos los h2*/
+    p {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-family: 'Roboto'
+    }
+
+    h2{
+    	color:grey;
+
+    	text-align: center;
+    	font-family: 'Oswald Extralight'
+    }
+
+ /*Primera pantalla*/
+    .Inicio	{
+    	text-align: center;
+    	padding-top: 55%;
+    	padding-bottom: 100%;
+    	
+    	
+    }
+
+    h1	{
+    	color: grey;
+    	font-size: 40px;
+    	font-family: 'Oswald light'
+
+    }
+
+    .Inicio > p 	{
+    	text-align: center;
+    	color:#c4c4c4;
+    	font-size: 18px;
+    }
+
+/*segunda parte,sobre mi*/
+    #sobre-mi > h2{
+    	padding-bottom: 30%;
+    	padding-top: 20%;
+    }
+
+    #sobre-mi > p{
+    	padding-bottom: 70%;
+    	color: grey;
+    	font-size: 18px;
+
+    }
+/*imagenes con titulo portafolio*/
+    #Portafolio > h2{
+    	padding-bottom: 30%;
+    	padding-top: 20%;
+    	
+
+    }
+
+        .imagen-uno		{
+    	position: relative;
+    	
+    	width: 100%;
+    	
+    }
+
+    .tituloimagen{
+        position: absolute;
+    	bottom: 20px;
+    	padding-left: 5%;
+    	text-align: left;
+    	padding-right: 3%;
+    	background-color: rgba(255, 255, 255, 0.7)
+}
+
+.imagen-cinco	{
+	position: relative;
+}
+
+.tituloimagendos	{
+	bottom: 20px;
+        position: absolute;       
+       padding-left: 5%;
+    	text-align: left;
+    	padding-right: 3%;
+    	background-color: rgba(255, 255, 255, 0.7)
+
+}
+.imagen-nueve	{
+	position: relative;
+}
+.tituloimagentres	{
+	bottom: 20px;
+        position: absolute;       
+        padding-left: 5%;
+    	text-align: left;
+    	padding-right: 3%;
+    	
+    	background-color: rgba(255, 255, 255, 0.7)
+
+}
+.imagen-siete	{
+	position: relative;
+}
+.tituloimagencuatro	{
+	bottom: 20px;
+        position: absolute;       
+        text-align: left;
+    	padding-left: 5%;
+    	padding-right: 3%;
+    	
+    	background-color: rgba(255, 255, 255, 0.7)
+}
+
+/*titulo de cada seccion del portafolio*/
+    .tituloimagen , .tituloimagendos, .tituloimagentres, .tituloimagencuatro 	{
+    	font-family: 'Oswald Extralight' 
+    	}
+
+
+
+/*padding de cada imagen*/
+
+
+.imagen-dos		{
+	padding-top: 10%;
+	
+
+}
+
+.imagen-tres	{
+	padding-top: 10%;
+}
+
+.imagen-cuatro	{
+	padding-top: 10%
+}
+
+.imagen-cincouno	{
+	padding-top: 10%
+}
+
+.imagen-seistres	{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.imagen-seis{
+padding-top: 10%;
+padding-bottom: 10%;
+	
+}
+
+.imagen-diez	{
+padding-top: 10%;
+padding-bottom: 10%;	
+}
+
+
+.imagen-ocho	{
+	padding-bottom: 70%;
+	padding-top: 10%
+
+}
+
+
+/*foooter*/
+
+#instagram{	
+	padding-top: 3%;
+	padding-bottom: 3%
+
+}
+
+a > img 	{
+	width: 10%
+}
+  
+footer	{
+	background-color: #c4c4c4;
+}
+
+/*formulario]*/
+form > h2	{
+	padding-bottom: 30%;
+    	padding-top: 20%;
+}
+
+form{
+
+width: 458px;
+margin:auto;
+padding: 10px 20px;
+box-sizing: border-box;
+}
+
+input, textarea	{
+	font-size: 14px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px; 
+	box-sizing: border-box;
+	font-family: 'Roboto light' 
+}
+
+textarea	{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton{
+	background-color: #828282;
+	padding: 20px;
+	color: white;
+}
+
+#boton:hover	{
+	cursor: pointer;
+}
+
+@media (max-width: 375px) 	{
+	form{
+width: 100%;
+	}
+
+	 .overlay >.text , .texto{	
+    		display: none;
+    	}
+
+    	form > h2	{
+	padding-bottom: 30%;
+    	padding-top: 20%;
+}
+
+form{
+
+width: 458px;
+margin:auto;
+padding: 10px 20px;
+box-sizing: border-box;
+}
+
+input, textarea	{
+	font-size: 14px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px; 
+	box-sizing: border-box;
+	font-family: 'Roboto light' 
+}
+
+textarea	{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton{
+	background-color: #828282;
+	padding: 20px;
+	color: white;
+}
+
+#boton:hover	{
+	cursor: pointer;
+}
+
+}
+
+@media screen and (min-width:1200px){
+
+	
+/*MENU*/
+
+.menu	{
+
+		font-size: 18px;
+}
+
+li 	{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/*Pantalla principal*/
+	.Inicio 	{
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.Inicio > p 	{
+		font-size: 20px;
+
+	}
+
+	.Inicio > h1 	{
+		font-size: 60px;
+		padding-bottom: 0;
+	
+	}
+
+/*Segunda pantalla, Sobre Mi*/
+	#sobre-mi > h2 	{
+		font-size: 40px;
+		padding-bottom: 26%;
+			}
+
+			#sobre-mi > p 	{
+				margin-left: 25%;
+				margin-right: 25%;
+				padding-bottom: 10%;
+				line-height: 1.7em;
+				font-size: 20px;
+			}
+
+/*Portafolio TITULO*/
+    #Portafolio > h2 	{
+    	font-size: 40px;
+		padding-bottom: 26%;
+    }
+
+
+/*Posicion de imagenes, portafolio*/
+
+img 	{
+	border-radius: 3px;
+
+}
+
+#contenedor	{
+	display: flex;
+	flex-direction: row;
+}
+.uno, .dos{
+display: flex;
+flex-direction: column;
+
+}
+
+.uno 		{
+	margin-left: 12%;
+	padding-right: 1%;
+}
+
+.dos {	
+	margin-right: 12%;
+	padding-left: 1%;
+}
+ 
+/*Portafolio, titulo imagenes*/
+
+.tituloimagencuatro, .tituloimagen, .tituloimagendos, .tituloimagentres	{
+	font-size: 26px;
+	display: none;
+}
+
+/*TEXTO HOVER*/
+.text	{
+	font-size: 20px;
+	color: #828282;
+font-family: 'Roboto light'
+}
+
+/*formulario*/
+form  > h2 {
+	font-size: 40px;
+		padding-bottom: 26%;
+}                                                                                                                                                                                                
+
+#Contacto 	{
+	padding-bottom: 20%;
+}
+
+/*footer*/
+a	> img	{
+width: 5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOVER DE IMAGENES PORTAFOLIO, POR CADA UNA*/
+.imagen-seis {
+  position: relative;
+  
+}
+
+.imagenhola {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-seis:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.imagen-nueve {
+  position: relative;
+  
+}
+
+.imagennueve {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-nueve:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+ 
+.imagen-seis {
+  position: relative;
+  
+}
+
+.imagenhola, .imagenuno,  {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-seis:hover, .imagen-uno:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.imagen-dos  {
+  position: relative;
+  
+}
+
+.imagendos  {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-dos:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.imagen-tres {
+  position: relative;
+  
+}
+
+.imagentres  {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-tres:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.imagen-cuatro {
+  position: relative;
+  
+}
+
+.imagencuatro  {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-cuatro:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.imagen-cincouno {
+  position: relative;
+  
+}
+
+.imagencinco  {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-cincouno:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+                                                                                                                                                                                            
+.imagen-cincouno {
+  position: relative;
+  
+}
+
+.imagencinco  {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-cincouno:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+   
+
+.imagen-seistres {
+  position: relative;
+  
+}
+
+.imagenseistres {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-seistres:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.imagen-cinco{
+  position: relative;
+  
+}
+
+.imagencinco {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-cinco:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.imagen-ocho > .overlay > .text 	{
+	top: 25%;
+}
+
+.imagen-diez {
+  position: relative;
+  
+}
+
+.imagendiez {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-diez:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.imagen-siete{
+  position: relative;
+  
+}
+
+.imagensiete {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-siete:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.imagen-ocho{
+  position: relative;
+  
+}
+
+.imagenocho {
+  display: block;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.imagen-ocho:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.imagen-ocho > .overlay > .text 	{
+	top: 25%;
+}
+
+.texto 
+/*img:hover	{
+	
+opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+  }
